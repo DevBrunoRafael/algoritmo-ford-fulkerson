@@ -32,7 +32,6 @@ public class FordFulkerson {
      */
     private boolean dfs(int source, int sink, int[] parent) {
         boolean[] visited = new boolean[numVertices];
-
         Stack<Integer> stack = new Stack<>();
 
         stack.push(source);
